@@ -36,19 +36,19 @@
         <h2>Formulario Alumno</h2>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="nombre-alumno" placeholder="Nombre">
+          <input type="text" class="form-control" id="student-name" placeholder="Nombre">
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-          <input type="text" class="form-control" id="apellido-alumno" placeholder="Apellido">
+          <input type="text" class="form-control" id="student-last-name" placeholder="Apellido">
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Edad</label>
-          <input type="number" class="form-control" id="edad-alumno" placeholder="Edad">
+          <input type="number" class="form-control" id="student-age" placeholder="Edad">
         </div>
         <div class="d-grid gap-2">
-          <button class="btn btn-primary" id="agregar" type="button">Agregar</button>
-          <button class="btn btn-secondary" id="limpiar" type="button">Limpiar</button>
+          <button class="btn btn-primary" id="add-btn" type="button">Agregar</button>
+          <button class="btn btn-secondary" id="clean-btn" type="button">Limpiar</button>
         </div>
       </div>
       <!-- tabla -->
@@ -58,12 +58,13 @@
           <thead>
             <tr>
               <th>Nombre</th>
+              <th>Apellido</th>
               <th>Edad</th>
               <th>Materias inscritas</th>
               <th>Calificaciones</th>
             </tr>
           </thead>
-          <tbody id="tabla-body"></tbody>
+          <tbody id="table-body"></tbody>
         </table>
       </div>
     </div>
